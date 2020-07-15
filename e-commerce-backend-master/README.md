@@ -83,11 +83,11 @@ There are some dependencies shoud be installed, if not please insert the followi
 
 ## Files in this porject
 
-## index.js
+### index.js
 
 - load the router modules, cookies session
 
-## Config
+### Config
 
 1. /config/db.js
 
