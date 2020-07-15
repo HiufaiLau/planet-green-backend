@@ -109,7 +109,7 @@ export default {
 };
 ```
 
-## User Model
+### User Model
 
 1. /models/User.js
    Create User Model with mongoose schema
@@ -147,13 +147,13 @@ userSchema.methods.getSignedToken = function () {
 };
 ```
 
-## User Route
+### User Route
 
 1. /routes/auth.js
 
 - set the user register, login, logout routes
 
-## User Controller
+### User Controller
 
 1. /controllers/auth.js
 
@@ -164,7 +164,7 @@ userSchema.methods.getSignedToken = function () {
 - Signout
   removes token from header
 
-## User Middlewares
+### User Middlewares
 
 1. /middlewares/current-user.js
 
@@ -184,24 +184,24 @@ userSchema.methods.getSignedToken = function () {
 - requireAuth middleware stops request if req.currentUser is not defined
 - to check if the user is authorized to do some requests
 
-## User Validation
+### User Validation
 
 1. /validation/auth-validation.js
 
 - like middleware to validate and check form input for register and signin
 
-## Product Model
+### Product Model
 
 1.  /models/Product.js
     Create Product Model with mongoose schema
 
-## Product Route
+### Product Route
 
 1. /routes/products.js
 
 - Set products , single product routes
 
-## Product Controller
+### Product Controller
 
 1. /controllers/products.js
    look for products and request, response the data body
@@ -218,19 +218,19 @@ userSchema.methods.getSignedToken = function () {
 - uploadImages and deleteSingleImage
   - to add, update and also delete a single image from images folder (directory)
 
-## Product Validation
+### Product Validation
 
 1. /validation/product-validation.js
 
 - Check form validation at create product
 
-## Image Route
+### Image Route
 
 1. /routes/image.js
 
 - Set image routes for adding, updateing and deleting a single image
 
-## Image middleware
+### Image middleware
 
 1. /middlewares/imageUpload.js
 
