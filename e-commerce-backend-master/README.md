@@ -24,7 +24,7 @@
 
 - there is no images in json file yet, images could be uploaded and deleted seperately thorugh frontend part after product data imported.
 
-- [for app flow and explaination of each functionality of this app please see the file ](./note.txt) 
+- [for app flow and explaination of each functionality of this app please see the file ](note.txt) 
 
 # Dendencies for this project
 
