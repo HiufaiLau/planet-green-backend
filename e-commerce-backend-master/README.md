@@ -1,6 +1,23 @@
-## E-commerce Planet Green - Backend
+# E-commerce Planet Green - Backend
 
-# Getting Start
+## Prerequisite
+
+1. install MongoDB
+
+- Install MongoDB on Mac (https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/) and/or
+- Install MongoDB on Windows (https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/)
+- Install MongoDB Compass (Mac/Windows) (https://docs.mongodb.com/compass/master/install/)
+
+2. Establish connection to MongoDB using Mongoose Library
+3. Double check whether DB has been created using Mongo Compass
+
+4. for checking API endpoint and http request (GET, POST, PATCH, DELETE), could install the following
+
+- Install Insomnia (https://insomnia.rest/download/#mac)
+  or
+- Install Postman (https://www.postman.com/)
+
+## Getting Start
 
 1. git clone or download this backend project to your local machine
 
@@ -10,21 +27,30 @@
 
 3. run `npm install` in terminal
 
-4. run `npm run dev` and make sure your app is running
+4. run `npm run dev` and make sure your app is running 
 
-5. As by default user role is 'user' after created a user
+5. press `ctrl c` to terminate the terminal  
+
+6. to make it easier to test at frontend, import the data from data/products.json to add the general mock product data to mongoDB,
+
+- run `node seeder.js -i`
+  
+- or delete all data run `node seeder.js -d`
+
+- then run `npm run dev` to start the server again
+
+7. After product data imported, the product images would be linked to images folder 
+- the product images would be shown in frontend 
+
+8. Please register an user account at frontend or add it manually in Insomnia / Postman or directly in MongoDB. 
+
+- As by default user role is 'user' after register a user
 
 - should manually change one user as the role ==='admin' in mongoDB .
 
-6. to make it easier to test at frontend, import the data from data/products.json to get the general product data,
+- [for app flow and explaination of each functionality of this app please see this file ](https://github.com/HiufaiLau/planet-green-backend/blob/master/e-commerce-backend-master/APPFLOW.md) 
 
-- run `node seeder.js -i`
-  or delete all
-- run `node seeder.js -d`
-
-- there is no images in json file yet, images could be uploaded and deleted seperately thorugh frontend part after product data imported.
-
-# Dendencies for this project
+## Dendencies for this project
 
 There are some dependencies shoud be installed, if not please insert the following command lines in terminal:
 
@@ -62,30 +88,13 @@ There are some dependencies shoud be installed, if not please insert the followi
 
   - npm install jsonwebtoken
 
-# Implement MongoDB
+## Files in this porject
 
-1. install MongoDB
-
-- Install MongoDB on Mac (https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/) and/or
-- Install MongoDB on Windows (https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/)
-- Install MongoDB Compass (Mac/Windows) (https://docs.mongodb.com/compass/master/install/)
-
-2. Establish connection to MongoDB using Mongoose Library
-3. Double check whether DB has been created using Mongo Compass
-
-4. for checking API endpoint and http request (GET, POST, PATCH, DELETE), could install the following
-
-- Install Insomnia (https://insomnia.rest/download/#mac)
-  or
-- Install Postman (https://www.postman.com/)
-
-# Files in this porject
-
-# index.js
+### index.js
 
 - load the router modules, cookies session
 
-# Config
+### Config
 
 1. /config/db.js
 
@@ -107,7 +116,7 @@ export default {
 };
 ```
 
-# User Model
+### User Model
 
 1. /models/User.js
    Create User Model with mongoose schema
@@ -145,13 +154,13 @@ userSchema.methods.getSignedToken = function () {
 };
 ```
 
-# User Route
+### User Route
 
 1. /routes/auth.js
 
 - set the user register, login, logout routes
 
-# User Controller
+### User Controller
 
 1. /controllers/auth.js
 
@@ -162,7 +171,7 @@ userSchema.methods.getSignedToken = function () {
 - Signout
   removes token from header
 
-# User Middlewares
+### User Middlewares
 
 1. /middlewares/current-user.js
 
@@ -182,24 +191,24 @@ userSchema.methods.getSignedToken = function () {
 - requireAuth middleware stops request if req.currentUser is not defined
 - to check if the user is authorized to do some requests
 
-# User Validation
+### User Validation
 
 1. /validation/auth-validation.js
 
 - like middleware to validate and check form input for register and signin
 
-# Product Model
+### Product Model
 
 1.  /models/Product.js
     Create Product Model with mongoose schema
 
-# Product Route
+### Product Route
 
 1. /routes/products.js
 
 - Set products , single product routes
 
-# Product Controller
+### Product Controller
 
 1. /controllers/products.js
    look for products and request, response the data body
@@ -216,19 +225,19 @@ userSchema.methods.getSignedToken = function () {
 - uploadImages and deleteSingleImage
   - to add, update and also delete a single image from images folder (directory)
 
-# Product Validation
+### Product Validation
 
 1. /validation/product-validation.js
 
 - Check form validation at create product
 
-# Image Route
+### Image Route
 
 1. /routes/image.js
 
 - Set image routes for adding, updateing and deleting a single image
 
-# Image middleware
+### Image middleware
 
 1. /middlewares/imageUpload.js
 
