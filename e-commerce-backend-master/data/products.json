@@ -1,0 +1,98 @@
+[
+  {
+    "price": 11,
+    "image": [],
+    "countInStock": 12,
+    "name": "Heartleaf Philodendron",
+    "category": "foliage",
+    "description": "Height: Climbs or trails to 4 ft (1.2 m) or more. Light: Moderate to bright light. Small leaves or long spaces between leaves show that the plant is not getting enough light. Move heartleaf philodendron plant to a brighter location, but not into direct sun which can scorch its leaves. It thrives under fluorescent light, too, making it an ideal office plant. Water: Keep soil lightly moist spring through fall. Allow surface to dry out between waterings in winter. Yellow leaves are caused by overwatering. Always use tepid water for your houseplants because cold water is a shock to these tropical natives."
+  },
+  {
+    "price": 8,
+    "image": [],
+    "countInStock": 0,
+    "name": "Ficus Alii",
+    "category": "foliage",
+    "description": "Height: Up to 10 ft (3 m) indoors. Pruning ficus will control its size.\n\nLight: Give Ficus binnendiijkii bright light year-round. It's not as fussy about being moved around as other ficus house plants, but it may drop leaves if suddenly moved into a shady corner or full sun.\n\nWater: Water soil thoroughly, then allow top 1 in (2.5 cm) to dry out between waterings. Use lukewarm water because cold water may cause leaf loss. Avoid using softened water -- it contains salts which can harm ficus plants."
+  },
+  {
+    "price": 11,
+    "image": [],
+    "countInStock": 10,
+    "name": "Aphelandra Squarrosa",
+    "category": "foliage",
+    "description": "Height: 1-2 ft (30-60 cm)\n\nLight: Bright light but no direct sun. Wrinkled or curled leaves indicate it is getting too much light.\n\nWater: Keep soil evenly moist year-round. Dry soil will cause leaves to wilt or drop off.\n\nHumidity: Moderate to high (aim for 50% relative humidity or higher). Take a look at these easy ways to increase humidity for your tropical houseplants. Brown leaf tips are a symptom of dry air.\n\nTemperature: Warm 65-80°F/18-27°C year-round"
+  },
+  {
+    "price": 6,
+    "image": [],
+    "countInStock": 0,
+    "name": "Calathea Makoyana",
+    "category": "foliage",
+    "description": "Height: Up to 2 ft (60 cm)\n\nLight: Low to moderate light. Keep this showy Calathea plant out of direct sun to avoid dulling the colors of the leaves.\n\nWater: Keep mix evenly moist at all times, but not soggy. Use distilled or rain water because Peacock Plant is sensitive to fluoride and other chemicals in many public water supplies."
+  },
+  {
+    "price": 7,
+    "image": [],
+    "countInStock": 14,
+    "name": "Watermelon Peperomia",
+    "category": "foliage",
+    "description": "Height: Up to 10 in (25 cm)\n\nLight: Bright light, but no direct sun. Small leaves or leggy stems indicate the plant is not getting enough light. \n\nWater: Water thoroughly, then allow the top 2 in (5 cm) to dry out before watering again. One of the few things that bother Peperomias is soggy soil, which can lead to root rot. If you believe you've hopelessly over-watered, ease the plant out of its pot and take a peek at its roots. If they're soft, brown and mushy, toss it out; it won't recover. If the roots are firm and white, repot right away in fresh potting mix. Water sparingly in winter, when growth is slower. Always water your houseplants with lukewarm water because cold water is a shock to them."
+  },
+  {
+    "price": 4,
+    "image": [],
+    "countInStock": 8,
+    "name": "Venus Fly Trap",
+    "category": "foliage",
+    "description": "Height: 3-10 in (8-25 cm)\n\nLight: Good light is vital to this plant's health. Bright light with 4 hours of direct sun a day is ideal. Sunlight is more important than feeding the plant because it makes most of its food through photosynthesis.\n\nWater: Keep soil evenly moist spring through fall. In winter, give it just enough water to keep from drying out completely. This plant is sensitive to chemicals in tap water, so it's a good idea to use only distilled or rain water. If stems and leaves become limp, it means that the soil is too dry. Water thoroughly, although the plant may not recover."
+  },
+  {
+    "price": 6,
+    "image": [],
+    "countInStock": 4,
+    "name": "Aloe Vera",
+    "category": "succulent",
+    "description": "Height: 1-2 ft (30-60 cm)\n\nLight: Bright light, with some direct sun in winter. Keep aloe vera out of hot, direct sunlight in summer, which can scorch its leaves.\n\nWater: Keep soil lightly moist spring through fall, slightly drier in winter. Do not allow the soil to dry out completely. When aloe vera is too dry the leaves will wrinkle."
+  },
+  {
+    "price": 5,
+    "image": [],
+    "countInStock": 4,
+    "name": "Mother of Thousands",
+    "category": "succulent",
+    "description": "Height: Up to 2-1/2 ft (75 cm)\n\nLight: Like most succulents, Kalanchoe daigremontiana grows best in bright light. It will even enjoy some direct morning sun. Move it outside for the summer, if you want. Just make the move a gradual one to avoid scorching its leaves. Be sure to bring it back indoors if the temperature drops below 40°F/4°C because it won't tolerate any frost.\n\nWater: Water thoroughly, then allow top 2 inches of soil to dry out between waterings. Cut back on watering in winter, but don't allow soil to dry out completely. Water the potting mix or water from the bottom to avoid getting the leaves wet because they may rot. Also, remember to always use room-temperature water when watering your houseplants."
+  },
+  {
+    "price": 4,
+    "image": [],
+    "countInStock": 10,
+    "name": "Cylindrical Snake",
+    "category": "succulent",
+    "description": "Height: Up to 2 ft (60 cm)\n\nLight: Bright light to full sun. If you move Sansevieria cylindrica outdoors for the summer, don't worry -- it can take the heat. But make the move into direct sunlight a gradual one to avoid scorching its leaves. Scorch marks look like gray or brown patches.\n\nWater: Water thoroughly, then allow the potting mix to dry out before watering again. Don't water the center of the rosette because the leaves will easily rot. Water the soil, taking care not to get water on the leaves, which will cause them to rot. If the leaves turn yellow, or get soft and mushy at their base, the plant is overwatered."
+  },
+  {
+    "price": 3,
+    "image": [],
+    "countInStock": 9,
+    "name": "String of Pearls Plant",
+    "category": "succulent",
+    "description": "Height: Trails 2-3 ft (60-90 cm)\n\nLight: Bright light with some direct sun\n\nWater:  Keep your String of Pearls plant lightly moist during the growing season (spring through fall). Cut back on water in winter, watering just enough to prevent the soil from drying out. Beads that look flat are a sign that the soil is too dry. Give it a good drink, but take care not to overwater. This succulent will not tolerate soggy soil.\n\nHumidity: Average room humidity (about 40% relative humidity) or lower. Dry air won't hurt this succulent."
+  },
+  {
+    "price": 4,
+    "image": [],
+    "countInStock": 10,
+    "name": "Calantchoe Tomentosa",
+    "category": "succulent",
+    "description": "Height: Up to 1 ft (30 cm) indoors\n\nLight: Bright light to full sun. Put this succulent in a bright location year-round. If you move it outdoors for the warm months, move it gradually into full sun to avoid scorching its leaves.\n\nWater: Water thoroughly, allowing the top 1 in (2.5 cm) to dry out between waterings. Take care not to get the fuzzy leaves wet because they can rot."
+  },
+  {
+    "price": 7,
+    "image": [],
+    "countInStock": 10,
+    "name": "Breynia Nivosa",
+    "category": "foliage",
+    "description": "Height: 3 ft (90 cm)\n\nLight: Bright indirect light \n\nWater: Water thoroughly and often to maintain moist soil. Do not allow the soil to dry out at any time. Remember to always use tepid water when watering your houseplants."
+  }
+]
