@@ -24,7 +24,7 @@
 
 - there is no images in json file yet, images could be uploaded and deleted seperately thorugh frontend part after product data imported.
 
-- [for app flow and explaination of each functionality of this app please see this file ](/notes.txt) 
+- [for app flow and explaination of each functionality of this app please see this file ](https://github.com/HiufaiLau/planet-green-backend/blob/master/e-commerce-backend-master/APPFLOW.md) 
 
 # Dendencies for this project
 
