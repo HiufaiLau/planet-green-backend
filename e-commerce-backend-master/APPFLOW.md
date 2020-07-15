@@ -30,26 +30,7 @@ getProducts
 - if user.role !== 'admin' stop request
 - if user.role === 'admin' proceed to route handler
 
- updateProduct/
-- currentUser middleware checks if req.session.jwt is defined 
- - if so set req.currentUser to verified jwtToken
-- requireAuth middleware stops request if req.currentUser is not defined 
-- authorize admin looks at the decoded token set to currentUser 
-- if user.role !== 'admin' stop request
-- if user.role === 'admin' proceed to route handler
-
  uploadImages/
-- currentUser middleware checks if req.session.jwt is defined 
- - if so set req.currentUser to verified jwtToken
-- requireAuth middleware stops request if req.currentUser is not defined 
-- authorize admin looks at the decoded token set to currentUser 
-- if user.role !== 'admin' stop request
-- if user.role === 'admin' proceed to route handler
-- admin could uploadImages while update or create a product
-- uploadImage middleware would set the file path and store the images at images directory
-- uploadImages would return a filename and save in product image.
-
-uploadImages/
 - currentUser middleware checks if req.session.jwt is defined 
  - if so set req.currentUser to verified jwtToken
 - requireAuth middleware stops request if req.currentUser is not defined 
