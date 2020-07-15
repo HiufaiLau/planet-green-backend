@@ -27,28 +27,29 @@
 
 3. run `npm install` in terminal
 
-4. run `npm run dev` and make sure your app is running 
+4. run `npm run dev` and make sure your app is running
 
-5. press `ctrl c` to terminate the terminal  
+5. press `ctrl c` to terminate the terminal
 
 6. to make it easier to test at frontend, import the data from data/products.json to add the general mock product data to mongoDB,
 
 - run `node seeder.js -i`
-  
+
 - or delete all data run `node seeder.js -d`
 
 - then run `npm run dev` to start the server again
 
-7. After product data imported, the product images would be linked to images folder 
-- the product images would be shown in frontend 
+7. After product data imported, the product images would be linked to images folder
 
-8. Please register an user account at frontend or add it manually in Insomnia / Postman or directly in MongoDB. 
+- the product images would be shown in frontend
+
+8. Please register an user account at frontend or add it manually in Insomnia / Postman or directly in MongoDB.
 
 - As by default user role is 'user' after register a user
 
 - should manually change one user as the role ==='admin' in mongoDB .
 
-- [for app flow and explaination of each functionality of this app please see this file ](https://github.com/HiufaiLau/planet-green-backend/blob/master/e-commerce-backend-master/APPFLOW.md) 
+- [for app flow and explaination of each functionality of this app please see this file ](https://github.com/HiufaiLau/planet-green-backend/blob/master/e-commerce-backend-master/APPFLOW.md)
 
 ## Dendencies for this project
 
@@ -241,4 +242,10 @@ userSchema.methods.getSignedToken = function () {
 
 1. /middlewares/imageUpload.js
 
-- implement mutler to set the image file path and images directory
+- Implement mutler to set the image file path and images directory
+
+### Search and Sort products middleware
+
+1. /middlewares/advanced-results.js
+
+- this will pass to frontend as search and sort products functions at sidebar
