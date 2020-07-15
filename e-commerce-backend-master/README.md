@@ -1,5 +1,22 @@
 # E-commerce Planet Green - Backend
 
+## Prerequisite
+
+1. install MongoDB
+
+- Install MongoDB on Mac (https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/) and/or
+- Install MongoDB on Windows (https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/)
+- Install MongoDB Compass (Mac/Windows) (https://docs.mongodb.com/compass/master/install/)
+
+2. Establish connection to MongoDB using Mongoose Library
+3. Double check whether DB has been created using Mongo Compass
+
+4. for checking API endpoint and http request (GET, POST, PATCH, DELETE), could install the following
+
+- Install Insomnia (https://insomnia.rest/download/#mac)
+  or
+- Install Postman (https://www.postman.com/)
+
 ## Getting Start
 
 1. git clone or download this backend project to your local machine
@@ -10,19 +27,25 @@
 
 3. run `npm install` in terminal
 
-4. run `npm run dev` and make sure your app is running
+4. run `npm run dev` and make sure your app is running 
 
-5. As by default user role is 'user' after created a user
+5. press `ctrl c` to terminate the server  
+
+6. to make it easier to test at frontend, import the data from data/products.json to add the general mock product data to mongoDB,
+
+- run `node seeder.js -i`
+  
+- or delete all data run `node seeder.js -d`
+
+7. Please register an user account at frontend or add it manually in Insomnia / Postman or directly in MongoDB. 
+
+- As by default user role is 'user' after register a user
 
 - should manually change one user as the role ==='admin' in mongoDB .
 
-6. to make it easier to test at frontend, import the data from data/products.json to get the general product data,
 
-- run `node seeder.js -i`
-  or delete all
-- run `node seeder.js -d`
-
-- there is no images in json file yet, images could be uploaded and deleted seperately thorugh frontend part after product data imported.
+8. After product data imported, 
+- Images could be uploaded and deleted seperately thorugh frontend signin as admin > click product in dropdown > click edit in a product. 
 
 - [for app flow and explaination of each functionality of this app please see this file ](https://github.com/HiufaiLau/planet-green-backend/blob/master/e-commerce-backend-master/APPFLOW.md) 
 
@@ -63,23 +86,6 @@ There are some dependencies shoud be installed, if not please insert the followi
 - Install the following dependencies:
 
   - npm install jsonwebtoken
-
-## Implement MongoDB
-
-1. install MongoDB
-
-- Install MongoDB on Mac (https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/) and/or
-- Install MongoDB on Windows (https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/)
-- Install MongoDB Compass (Mac/Windows) (https://docs.mongodb.com/compass/master/install/)
-
-2. Establish connection to MongoDB using Mongoose Library
-3. Double check whether DB has been created using Mongo Compass
-
-4. for checking API endpoint and http request (GET, POST, PATCH, DELETE), could install the following
-
-- Install Insomnia (https://insomnia.rest/download/#mac)
-  or
-- Install Postman (https://www.postman.com/)
 
 ## Files in this porject
 
