@@ -1,7 +1,10 @@
 [
   {
     "price": 11,
-    "image": [],
+    "image": [
+      "image-1594798172774-heartleaf-philodendron2.png",
+      "image-1594798172776-heartleaf-philodendron3.png"
+    ],
     "countInStock": 12,
     "name": "Heartleaf Philodendron",
     "category": "foliage",
@@ -9,7 +12,7 @@
   },
   {
     "price": 8,
-    "image": [],
+    "image": ["image-1594631195074-Ficus-Alii3.jpg"],
     "countInStock": 0,
     "name": "Ficus Alii",
     "category": "foliage",
@@ -17,7 +20,10 @@
   },
   {
     "price": 11,
-    "image": [],
+    "image": [
+      "image-1594631807318-Aphelandra-squarrosa2.jpg",
+      "image-1594638598386-Aphelandra-squarrosa.jpg"
+    ],
     "countInStock": 10,
     "name": "Aphelandra Squarrosa",
     "category": "foliage",
@@ -25,7 +31,10 @@
   },
   {
     "price": 6,
-    "image": [],
+    "image": [
+      "image-1594631855328-calathea_medaillon.jpg",
+      "image-1594631855371-calathea_medaillon3.jpg"
+    ],
     "countInStock": 0,
     "name": "Calathea Makoyana",
     "category": "foliage",
@@ -33,7 +42,10 @@
   },
   {
     "price": 7,
-    "image": [],
+    "image": [
+      "image-1594631894452-Watermelon-Peperomia.jpg",
+      "image-1594631894477-Watermelon-Peperomia2.jpg"
+    ],
     "countInStock": 14,
     "name": "Watermelon Peperomia",
     "category": "foliage",
@@ -41,7 +53,10 @@
   },
   {
     "price": 4,
-    "image": [],
+    "image": [
+      "image-1594638662280-Venus-Fly-Trap.webp",
+      "image-1594638670968-VenusFlyTrap.jpg"
+    ],
     "countInStock": 8,
     "name": "Venus Fly Trap",
     "category": "foliage",
@@ -49,23 +64,18 @@
   },
   {
     "price": 6,
-    "image": [],
+    "image": [
+      "image-1594631944032-Aloe-Vera.jpg",
+      "image-1594631944058-Aloe-Vera2.jpg"
+    ],
     "countInStock": 4,
     "name": "Aloe Vera",
     "category": "succulent",
     "description": "Height: 1-2 ft (30-60 cm)\n\nLight: Bright light, with some direct sun in winter. Keep aloe vera out of hot, direct sunlight in summer, which can scorch its leaves.\n\nWater: Keep soil lightly moist spring through fall, slightly drier in winter. Do not allow the soil to dry out completely. When aloe vera is too dry the leaves will wrinkle."
   },
   {
-    "price": 5,
-    "image": [],
-    "countInStock": 4,
-    "name": "Mother of Thousands",
-    "category": "succulent",
-    "description": "Height: Up to 2-1/2 ft (75 cm)\n\nLight: Like most succulents, Kalanchoe daigremontiana grows best in bright light. It will even enjoy some direct morning sun. Move it outside for the summer, if you want. Just make the move a gradual one to avoid scorching its leaves. Be sure to bring it back indoors if the temperature drops below 40°F/4°C because it won't tolerate any frost.\n\nWater: Water thoroughly, then allow top 2 inches of soil to dry out between waterings. Cut back on watering in winter, but don't allow soil to dry out completely. Water the potting mix or water from the bottom to avoid getting the leaves wet because they may rot. Also, remember to always use room-temperature water when watering your houseplants."
-  },
-  {
     "price": 4,
-    "image": [],
+    "image": ["image-1594631992785-CylindricalSnake.jpg"],
     "countInStock": 10,
     "name": "Cylindrical Snake",
     "category": "succulent",
@@ -73,7 +83,10 @@
   },
   {
     "price": 3,
-    "image": [],
+    "image": [
+      "image-1594632055138-StringofPearlsPlant.jpg",
+      "image-1594632055160-StringPearlsPlant.jpg"
+    ],
     "countInStock": 9,
     "name": "String of Pearls Plant",
     "category": "succulent",
@@ -81,7 +94,11 @@
   },
   {
     "price": 4,
-    "image": [],
+    "image": [
+      "image-1594632114276-calantchoe-tomentosa.jpg",
+      "image-1594632114297-calantchoe-tomentosa2.jpg",
+      "image-1594632114300-calantchoe-tomentosa3.jpg"
+    ],
     "countInStock": 10,
     "name": "Calantchoe Tomentosa",
     "category": "succulent",
@@ -89,10 +106,32 @@
   },
   {
     "price": 7,
-    "image": [],
+    "image": ["image-1594669054646-SnowBushPlant2.jpg"],
     "countInStock": 10,
-    "name": "Breynia Nivosa",
+    "name": "Snow Bush Plant",
     "category": "foliage",
     "description": "Height: 3 ft (90 cm)\n\nLight: Bright indirect light \n\nWater: Water thoroughly and often to maintain moist soil. Do not allow the soil to dry out at any time. Remember to always use tepid water when watering your houseplants."
+  },
+  {
+    "price": 12,
+    "image": [
+      "image-1594654133150-Mother-of-Thousands.jpg",
+      "image-1594654133152-MotherofThousands2.jpg"
+    ],
+    "countInStock": 12,
+    "name": "Mother of Thousands",
+    "category": "foliage",
+    "description": "Height: Up to 2-1/2 ft (75 cm)\\n\\nLight: Like most succulents, \n    Kalanchoe daigremontiana grows best in bright light. \n    It will even enjoy some direct morning sun. Move it outside for the summer, \n    if you want. Just make the move a gradual one to avoid scorching its leaves. \n    Be sure to bring it back indoors if the temperature drops below 40°F/4°C \n    because it won't tolerate any frost.\\n\\nWater: Water thoroughly, \n    then allow top 2 inches of soil to dry out between waterings. \n    Cut back on watering in winter, but don't allow soil to dry out completely. \n    Water the potting mix or water from the bottom to avoid getting the leaves wet \n    because they may rot. \n    Also, remember to always use room-temperature water when watering your houseplants."
+  },
+  {
+    "price": 15,
+    "image": [
+      "image-1594656988840-Aloe-Vera2.jpg",
+      "image-1594678362613-Aloe-Vera.jpg"
+    ],
+    "countInStock": 0,
+    "name": "Giant Alo Vera",
+    "category": "foliage",
+    "description": "s"
   }
 ]

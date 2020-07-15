@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HiufaiLau/e-commerce-backend.git"
+    "url": "git+https://github.com/HiufaiLau/planet-green-backend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/HiufaiLau/e-commerce-backend/issues"
+    "url": "https://github.com/HiufaiLau/planet-green-backend/issues"
   },
-  "homepage": "https://github.com/HiufaiLau/e-commerce-backend#readme",
+  "homepage": "https://github.com/HiufaiLau/planet-green-backend#readme",
   "dependencies": {
     "cookie-session": "^1.4.0",
     "debug": "~2.6.9",
