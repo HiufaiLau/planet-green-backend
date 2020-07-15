@@ -29,7 +29,7 @@
 
 4. run `npm run dev` and make sure your app is running 
 
-5. press `ctrl c` to terminate the server  
+5. press `ctrl c` to terminate the terminal  
 
 6. to make it easier to test at frontend, import the data from data/products.json to add the general mock product data to mongoDB,
 
@@ -37,12 +37,13 @@
   
 - or delete all data run `node seeder.js -d`
 
+- then run `npm run dev` to start the server again
+
 7. Please register an user account at frontend or add it manually in Insomnia / Postman or directly in MongoDB. 
 
 - As by default user role is 'user' after register a user
 
 - should manually change one user as the role ==='admin' in mongoDB .
-
 
 8. After product data imported, 
 - Images could be uploaded and deleted seperately thorugh frontend signin as admin > click product in dropdown > click edit in a product. 
