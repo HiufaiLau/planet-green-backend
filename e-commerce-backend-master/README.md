@@ -39,14 +39,14 @@
 
 - then run `npm run dev` to start the server again
 
-7. Please register an user account at frontend or add it manually in Insomnia / Postman or directly in MongoDB. 
+7. After product data imported, the product images would be linked to images folder 
+- the product images would be shown in frontend 
+
+8. Please register an user account at frontend or add it manually in Insomnia / Postman or directly in MongoDB. 
 
 - As by default user role is 'user' after register a user
 
 - should manually change one user as the role ==='admin' in mongoDB .
-
-8. After product data imported, 
-- Images could be uploaded and deleted seperately thorugh frontend signin as admin > click product in dropdown > click edit in a product. 
 
 - [for app flow and explaination of each functionality of this app please see this file ](https://github.com/HiufaiLau/planet-green-backend/blob/master/e-commerce-backend-master/APPFLOW.md) 
 
